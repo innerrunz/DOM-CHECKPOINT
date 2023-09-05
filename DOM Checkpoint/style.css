@@ -1,0 +1,198 @@
+/* styling for home page */
+.section{
+  height: 100%;
+width: 100%;
+background-image:linear-gradient(rgba(59, 59, 59, 0.4),rgba(94, 94, 94, 0.4)),url(bags.jpg);
+background-position: right;
+background-size:contain;
+position:absolute;
+}
+
+.first{
+  padding-top: 80px;
+  padding-left: 70px;
+  color: rgb(167, 34, 34);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p1{
+  font-style: italic ;
+  color: orange;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 70px;
+}
+
+.p2{
+  color: black;
+  padding-left: 70px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  padding-bottom: 20px;
+}
+
+
+.button {
+    width: 180px;
+    height: 40px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    border: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    box-shadow: 1px 3px 0px rgb(139, 113, 255);
+    transition-duration: .3s;
+    margin-inline: 50px;
+  }
+  
+  .cartIcon {
+    width: 14px;
+    height: fit-content;
+  }
+  
+  .cartIcon path {
+    fill: white;
+  }
+  
+  .button:active {
+    transform: translate(2px ,0px);
+    box-shadow: 0px 1px 0px rgb(139, 113, 255);
+    padding-bottom: 1px;
+  }
+  
+
+
+/* header and nav bar styling */
+header{
+    display: flex;
+    justify-content:center;
+    position:fi xed;
+    background-color: #ffad06;
+    
+}
+
+.ownnav ul{
+    list-style: none;
+    font-weight: bold;
+    padding-left: 70px;
+    
+}
+
+.ownnav   li{
+    display: inline;
+    padding: 70px;
+    
+}
+.ownnav li a{
+    
+    text-decoration: none;
+    color: black;
+    padding-left: 50px;
+    font-family:'Times New Roman', Times, serif;
+    transition: all 0.3s;
+}
+
+
+
+.ownnav a:hover{
+    color:  white;
+}
+
+.account{
+    padding-top: 19px;
+    font-size: 13px;
+    padding-left: 80px;
+    color: rgb(22, 21, 21);  
+    
+}
+
+
+
+.fa-solid:hover{
+color: white ;
+}
+
+.cart{
+    padding-top: 26px;
+    font-size: 13px;
+    padding-left: 45px;
+    color: rgb(17, 17, 17);
+}
+
+
+
+/* CSS for the shopping cart page */
+
+body {
+    font-family: sans-serif;
+    
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+     text-align: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 15px;
+    padding-top: 20px;
+   
+    }
+  
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin : auto ;
+    border: none;
+}
+
+#cart input{
+ border: none;
+ background-color: rgb(255, 255, 255);
+}
+
+.total{
+  font-size:large;
+}
+
+#cart button{
+border: none;
+background-color: powderblue;
+color: #020202;
+font-weight:bolder;
+padding: 7px;
+
+
+}
+  
+  
+  .cart-item img {
+    width: 100px;
+    height: 90%;
+    
+  }
+
+  #total-price{
+    padding-left: 167px;
+  }
+  
+ .button2{
+  background-color: powderblue;
+color: black;
+font-weight:bolder;
+margin-left: 600px;
+padding-bottom: 8px ;
+padding-top: 8px;
+border: none;
+ }

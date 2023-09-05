@@ -1,0 +1,59 @@
+/* styling for the account page( log in and sign up page) */
+*{
+margin: 0%;
+padding: 0%;
+font-family: sans-serif;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(59,59,59,0.4),rgba(59,59,59,0.4)),url(shopping.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    
+}
+
+.login-container {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+}
+
+.login-container input {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    
+}
+
+.login-container button {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.login-container button:hover {
+    background-color: green;
+}
+
+
+
+
+
